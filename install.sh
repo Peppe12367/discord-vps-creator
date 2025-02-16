@@ -46,4 +46,4 @@ echo "Updating main.py with the provided Discord token..."
 sed -i "s/TOKEN = ''/TOKEN = '$DISCORD_TOKEN'/" main.py
 echo "Starting the Discord bot..."
 echo "To start the bot in the future, run: python3 main.py"
-python3 main.py
+python3 sigma
