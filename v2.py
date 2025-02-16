@@ -13,8 +13,8 @@ import asyncio
 from discord import app_commands
 
 TOKEN = '' # TOKEN HERE
-RAM_LIMIT = '2g'
-SERVER_LIMIT = 12
+RAM_LIMIT = '8g'
+SERVER_LIMIT = 1200000000000000000000000000000000000
 database_file = 'database.txt'
 
 intents = discord.Intents.default()
